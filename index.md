@@ -1,46 +1,22 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 关于我和这个博客
+tagline: 我的碎碎念
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+##本人简介
+本人张欣接，昵称是小木块（没错，就是高中物理课本里的时而没有摩擦力，时而没有重量，时而没>有体积的木块）；现在就职于网易在线游戏事业部，职位是系统运维工程师，负责公司部分基础服务>以及部分游戏的运维工作。
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+自己平时的爱好是篮球，健身，羽毛球，之前在学校的时候是篮球打的比较多，工作了之后球友不固>定，打的较少了，现在比较多的是在公司健身房健身，偶尔跟同事去打羽毛球。
 
-## Update Author Attributes
+##为什么我要创建这个博客
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+“Stay hungry, Stay foolish”，乔老爷子告诫我们要思忧患，思进取，不安于现状而死于安乐，保对理想的渴望。当然，本人觉得自己未必会时时刻刻保持着这种态度，但是最起码，自己还是应该在>工作之余学点知识，给自己充电，给自己添加一些技能包，没准哪天就能用上。当然，现在本人还是>小菜鸟一枚，可能写的文章都很挫，各位看官见谅。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+当然啦，实际上这个博客是给自己看的，想着自己能够在学的时候记录点东西总是极好的，即可以提>高自己的知识技能，也可以提高自己的写作水平。
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+如果不经意间，本人的博客能对大家有一点点帮助，那本人也是极其开心的，毕竟自己也从很多人的>技术博客中得到了很多。（如果大家都能贡献一点点，那整个社会会变的更美好！）
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+##联系我
+E-mail: zhishi3232@126.com
