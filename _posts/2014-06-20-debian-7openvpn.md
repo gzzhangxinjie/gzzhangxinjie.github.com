@@ -2,7 +2,7 @@
 layout: post
 title: "Debian 7上安装OpenVPN"
 description: ""
-category: Debian, OpenVPN
+category: VPN
 tags: [Debian, OpenVPN, VPN]
 ---
 {% include JB/setup %}
