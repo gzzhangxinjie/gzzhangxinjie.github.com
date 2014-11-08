@@ -7,7 +7,6 @@ tags: [mysql, 数据表]
 ---
 {% include JB/setup %}
 
-# MySQL数据表操作
 
 ## 数据表的创建
 MySQL 数据表的创建可以通过以下语句格式创建：
