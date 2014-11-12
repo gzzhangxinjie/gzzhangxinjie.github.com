@@ -11,7 +11,7 @@ tags: [shell]
 
 ###代码段1
 
-~~~
+{% highlight bash linenos %}
 #!/bin/bash
 declare -a myarray
 myarray=(0)
@@ -22,7 +22,7 @@ do
 done
 
 echo ${myarray[@]}
-~~~
+{% endhighlight %}
 
 代码的本意是将`testfile.txt`文件中的内容读取并放到`myarray`数组中，然后显示`myarray`的内容。其中，`testfile.txt`的内容为：
 
@@ -44,7 +44,7 @@ echo ${myarray[@]}
 
 ###代码段2
 
-~~~
+{% highlight bash linenos %}
 #!/bin/bash
 declare -a myarray
 myarray=(0)
@@ -55,7 +55,7 @@ do
 done < testfile.txt
 
 echo ${myarray[@]}
-~~~
+{% endhighlight %}
 
 `testfile.txt`的内容也是
 
