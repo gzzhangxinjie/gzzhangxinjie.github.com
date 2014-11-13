@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-今天写了一个 python 脚本文件，在命令行执行的时候没有问题，可以正常操作，但是放在 crontab 跑的时候报了一下错误：
+今天写了一个 python 脚本文件，在命令行执行的时候没有问题，可以正常操作，但是放在 crontab 跑的时候报了以下错误：
 
 {% highlight text %}
     from django.core.management import setup_environ
