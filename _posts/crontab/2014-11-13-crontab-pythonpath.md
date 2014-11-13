@@ -12,7 +12,7 @@ tags: []
 {% highlight text %}
     from django.core.management import setup_environ
     ImportError: No module named django.core.management
-{% endhighlihgt %}
+{% endhighlight %}
 
 ### 问题原因和解决办法
 
