@@ -20,14 +20,12 @@ tags: []
 
 crontab 中的运行环境和用户的 shell 环境不一定是相同的。
 
-在这个问题中，是`PYTHONPATH` 路径问题；经过确认在命令行时的`PYTHONPATH`是 `/home/www-data/library`。
+在这个问题中，是`PYTHONPATH` 路径问题；经过确认在命令行时使用的`PYTHONPATH`是 `/home/www-data/library`(可能不同情况下使用的 PYTHONPATH 是不一样的，自己要留意下)。
 
 #### 解决办法：
 
-在 crontab 中添加 `PYTHONPATH`，例如，
+在 crontab 中添加相应的路径到 `PYTHONPATH`，例如，
 
 {% highlight bash linenos %}
-PYTHONPATH=/home/www-data/library
+PYTHONPATH=/home/www-data/library:$PYTHONPATH
 {% endhighlight %}
-
-在实际解决问题的过程中，一定确认 `PYTHONPATH` 的路径。
