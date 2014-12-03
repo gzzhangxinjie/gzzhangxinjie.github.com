@@ -9,7 +9,7 @@ tags: ['awk']
 
 今天刚好有个需求，需要将一个文件内容的某个字段提取出来，然后根据这个字段的内容生成 mysql 的 delete 语句。
 
-文件内容的格式为, 文件名为file1：
+文件名为 file1，文件内容的格式为：
 
 {% highlight text%}
 aa keyword1
