@@ -97,7 +97,7 @@ server 10.8.0.0 255.255.255.0
 
 ##服务器端网络设置
 因为vpn使用了一个虚拟的私有网段,需要将数据包转发到服务器物理网卡上才可以让客户端正常访问网络，打开`/etc/sysctl.conf`文件,去掉`#net.ipv4.ip_forward=1`前面的注释变为
-`net.ipv4.ip_forward=1`, 然后再终端下执行`sysctl -p`使其生效。
+`net.ipv4.ip_forward=1`, 然后在终端下执行`sysctl -p`使其生效。
 
 在iptables加入
 
