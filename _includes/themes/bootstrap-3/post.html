@@ -9,13 +9,8 @@
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
     <div class="content">
-      {{ content | toc_generate }}
+      {{ content  }}
     </div>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('.toc').toc();
-    });
-    </script>
     
 
   {% unless page.categories == empty %}
