@@ -2,14 +2,21 @@
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
 
+
 <div class="row post-full">
-  <div class="col-xs-12">
+  <div class="col-xs-9">
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
     <div class="content">
-      {{ content }}
+      {{ content | toc_generate }}
     </div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.toc').toc();
+    });
+    </script>
+    
 
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
@@ -43,5 +50,8 @@
     </ul>
     <hr>
     {% include JB/comments %}
+  </div>
+  <div class="col-sm-3">
+      {% include sidebar.html %}
   </div>
 </div>
