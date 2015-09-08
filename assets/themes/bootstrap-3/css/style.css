@@ -22,22 +22,27 @@ h1, h2, h3, h4 {
 
 h1 {
    color: #990099;
+   font-size: 275%;
 }
 
 h2 {
    color: #CC6633;
+   font-size: 250%;
 }
 
 h3 {
    color: #0033CC;
+   font-size: 175%;
 }
 
 h4 {
    color: #CC33CC;
+   font-size: 125%;
 }
 
 h5 {
    color: #FF0000;
+   font-size: 100%;
 }
 
 #footer {
